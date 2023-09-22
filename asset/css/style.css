@@ -248,3 +248,30 @@ a {
 .hero__light-br {
     margin: 586px 0 0 1048px;
 }
+
+/* brand section */
+
+.brand {
+    margin-top: 130px;
+}
+
+.brand__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 76px 122px 78px 121px;
+    border-radius: 100px;
+    background: #e2eddf;
+}
+
+.brand__item {
+    display: flex;
+    align-items: center;
+}
+
+.brand__text {
+    margin-left: 11px;
+    font-size: 2.6rem;
+    color: #163c35;
+}
+
