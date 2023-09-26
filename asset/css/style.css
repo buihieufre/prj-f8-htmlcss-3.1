@@ -57,7 +57,7 @@ a {
 }
 
 .btn:hover {
-    background: #e2eddf;
+    opacity: 0.7;
 }
 
 .heading {
@@ -405,13 +405,13 @@ a {
 }
 
 .services-item__name {
-    margin-bottom: 18px;
     font-size: 2.2rem;
     font-weight: 600;
     color: var(--primary-heading-color, #152427);
 }
 
 .services-item__desc {
+    margin-top: 18px;
     --line-clamp: 3;
     color: var(--primary-desc-color, #7d8188);
     font-size: 1.4rem;
@@ -641,6 +641,7 @@ a {
     border-color: transparent;
     border-radius: 33px;
     background: #e2eddf;
+    cursor: pointer;
 }
 
 .process-item:hover .process__more-btn {
@@ -836,6 +837,7 @@ a {
 .service-ftr__item:hover {
     transform: translateY(-20px);
     box-shadow: 0px 36px 100px 0px rgba(111, 120, 111, 0.2);
+    cursor: pointer;
 }
 
 .service-ftr-item__heading {
@@ -941,6 +943,7 @@ a {
 }
 
 .articles-item__heading {
+    display: block;
     height: 90px;
     margin: 13px 0 55px;
     font-size: 1.8rem;
